@@ -1,0 +1,7 @@
+{
+	"origin": ["#Fact#"],
+	"Fact": ["A #Carnivore#, eats meat! A #Herbivore#, eats plants! A #Omnivore#, eats anything!", "#Carnivore#!", "#Herbivore#!", "#Omnivore#!"],
+	"Carnivore": ["Tyrannosaur", "Velociraptor", "Megalodon", "Dilophosaurus", "Allosaurus", "Spinosaurus", "Utahraptor", "Carnotaurus", "Troodon", "Deinonychus"],
+	"Herbivore": ["Triceratops", "Dracorex", "Moschops", "Argentinosaurus", "Stegosaurus", "Edmontosaurus", "Diplodocus", "Hadrosaurus", "Nodosaurus", "Ankylosaurus"],
+	"Omnivore": ["Oviraptor", "Incivisosaurus", "Gigantoraptor", "Therizinosaurus", "Eoraptor", "Gallimimus", "Pelecaniminus", "Struthiomimus", "Ornithomimus", "Heterodontosaurus"]
+}
