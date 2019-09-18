@@ -1,5 +1,3 @@
-!pip install markovify
-
 from google.colab import files
 import markovify
 
