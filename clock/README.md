@@ -1,6 +1,6 @@
 Analouge Clock
 
-This is an analogue clock I made with p5.js. The easiest way to see it in action is to copy the contents of MyClock into a [p5.js editor](http://editor.p5js.org) and run it.
+This is an analogue clock I made with p5.js. The easiest way to see it in action is to copy the contents of MyClock into a [p5.js editor](http://editor.p5js.org) and run it. Here is a link for it: https://editor.p5js.org/Bbhermes/present/W5prAgAwk
 
 To read the clock's time, you have read the analogue clock hands that go around the face of the clock. The long red hand is seconds, the slightly shorter blue hand is minutes, and the shortest green hand is hours.
 
