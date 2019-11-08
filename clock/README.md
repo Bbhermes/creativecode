@@ -1,9 +1,9 @@
-# Concentric Clock
+Analouge Clock
 
 This is an abstract clock I made with p5.js. The easiest way to see it in action is to copy the contents of [the javascript file](concentric-clock.js)  into a [p5.js editor](http://editor.p5js.org) and run it.
 
-To read the clock's time, you have to count the number of dots in each circle. The inner ring (green) is hours, the middle ring (purple) is the number of minutes past the hour, and the outer (red) ring is the number of seconds past the minute.
+To read the clock's time, you have read the analogue clock hands that go around the face of the clock. The long red hand is seconds, the slightly shorter blue hand is minutes, and the shortest green hand is hours.
 
-The concepts demonstrated in the code rely on some of the examples shared by Golan Levin in the instructions for his class's [clock assignment](https://github.com/golanlevin/lectures/tree/master/lecture_clock), and the look of it sort of resembles the soft bubbles of [bokeh photography](https://en.wikipedia.org/wiki/Bokeh).
+I git my inspiration for this clock from the coding train youtube channel run by Daniel Shiffman. (https://www.youtube.com/watch?time_continue=322&v=E4RyStef-gY) I watched his coding challenge number 74 video where he made a clock and followed along with his instructions to create my own. However his clock was very basic as it was just the hands moving and I wanted to make it better. To do this I created a clock face out of ellipses and clock points for 12, 3, 6, and 9 o'clock. In addition I didn't like how his clock's hour and minute hands moved when the second hand caused each of them to move so I edited them slightly for the movement to be smoother.
 
-I like the abstract nature of this clock, even though that abstractness makes it less useful. I figure there are so many ways now to know what time it is (as I type this, I can see the current time displayed by my computer, by the watch on my wrist, and my phone on the desk next to me) that the goal of a time-based art work isn't so much to tell us what time it is but rather to encourage us to think about time and its representation.
+I really like the way my clock moves because of the smoothness. It is very obvious just from looking at the clock what it is and what it's trying to do. I also really like how the colors stand out from each other and grab the viewers attention.
