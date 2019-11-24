@@ -1,17 +1,16 @@
-# Three Ways to Generate a Novel
+For my Novel for our NaNoGenMo project I chose to take the script from a movie and generate a novel out of it. The movie I chose was the notoriously bad film from the 1990s called Troll 2.
 
-This project folder contains three different examples for generating a novel, as definied by [NaNoGenMo](http://nanogenmo.github.io). 
+To create the novel I chose to work with Markovify and Markov chains. I chose Markov chains because they are fmailiar to me. I also used them for our poetry project earlier this year. To get my code to work I used an upload function in python that allows me to upload a text file from my computer to the python script. That text file is included in the novel file here. The text file was a copy of the script to Troll 2.
 
-## Rainy Days
-The python scripts in [my_rainy_day.py](my_rainy_day.py) and [another_rainy_day.py](another_rainy_day.py) generate novels by randomly repeating and arranging the words "drip" and "drop". The first uses punctionation to mimic the syntax of prose and the second prints the words vertically as a concrete poem about rain.
+After that I used the python functions to create a text file named MyNovel.txt. Then I used Markov chains to generate short sentences in the file that will always end up being over 50,000 words long. Here is what that looks like:
 
-## Recipes for Revolution
-This [python script](revolution_recipes.py) uses a Markov chain generator on some input text to generate novels that should sound something like Karl Marx mashed up with a recipe book. The script expects a file called "combined.txt" in the same directory that the script runs in, so in the example case, that file consists of text from _The Communist Manifesto_ and a recipe book.
+f = open("MyNovel.txt", "w")
 
-The script also includes some libraries useful for formatting and printing the resulting text as a PDF document, so in addition to [markovify](https://github.com/jsvine/markovify), you'll also need [pdfkit](https://pypi.org/project/pdfkit/), [wkhtmltopdf](https://wkhtmltopdf.org/), and [dominate](https://github.com/Knio/dominate/).
+for i in range(7000):
 
-## Tracery Bookery
-The enclosed [story.json](story.json) file is a Tracery grammar that should expand a few sentences into something like 50,000 words. The actual word count will vary based on the length and number of the core sentences.
+  f.write(text_model.make_short_sentence(130))
+  
+After that my novel is generated. I also included a print function so we can see what the novel ends up saying because it will say something different every time.
 
-This JSON file can be dropped into [this template](https://github.com/zachwhalen/bookery).
-
+To create my code I took some of my code from my poem filer here on Github as well as using a tutorial on how to write text files in python. Here is the link for that tutorial:
+https://www.geeksforgeeks.org/reading-writing-text-files-python/
