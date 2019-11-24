@@ -1,43 +1,23 @@
-import random
+!pip install markovify
+
+from google.colab import files
 import markovify
-import dominate 
-from dominate.tags import *
-import pdfkit
 
-
-novel = ''
-
-with open("combined.txt") as f:
-    text = f.read()
-    
-    
-# Build the model.
+uploaded = files.upload()
+for fn in uploaded.keys():
+  text = uploaded[fn].decode()
+ 
 text_model = markovify.Text(text)
 
-for i in range(3605):
-    
-    
-    novel += str(text_model.make_sentence()) + " "
-    
-    r = random.randint(0,100)
-    
-    if (r < 36):
-        novel += "\n\n"
-    
-#print(novel)
 
-chunked = novel.split("\n\n")
+f = open("MyNovel.txt", "w")
 
-doc = dominate.document(title='Recipes for Revolution!')
+for i in range(7000):
 
-with doc.head:
-    style("body {background-color: #fff; color: #333; font-size: 15pt}")
-    
-with doc:
-    h1("Recipes for Revolution")
-    p("A NaNoGenMo 2018 Novel")
-    
-    for c in chunked:
-        p(c)
+  f.write(text_model.make_short_sentence(130))
 
-pdfkit.from_string(str(doc.render()), 'revolution_recipe.pdf')
+
+f.close()
+
+f = open("MyNovel.txt", "r")
+print(f.read())
