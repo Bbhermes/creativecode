@@ -23,6 +23,7 @@ html_template = f"""
   <head>
   <title>Troll2</title>
   <style>
+  <pre>
     body {{
       font-family: "Times New Roman";
     }}
