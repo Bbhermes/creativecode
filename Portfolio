@@ -1,0 +1,15 @@
+{
+
+	"origin": ["#sound1#-#sound2#-#sound3#-#sound4#-#sound5#-#sound6#-#sound7#-#sound8#"],
+
+	"sound1": ["FISSS", "VUMMMM", "WISSSS", "HISSS", "SHLUCK"],
+	"sound2": ["HMMMM", "CRCKKKK", "BDMMMMMMM", "CRRRRRRRRRACKLE", "JMMMM", "WIST"],
+	"sound3": ["HIST", "UMPH", "ISHHHHH", "WISHHHHH", "WASHHHH", "FISHHHHH"],
+	"sound4": ["LASHHHH", "MUMMM", "CRISSHHHHH", "ISSSSSSS", "DUMMMMM"],
+	"sound5": ["ESHHH", "KRACKKKKK", "TMMMMM", "THRUMMMM", "RASSSSST"],
+	"sound6": ["FDMMM", "ESSSS", "ZXZXZ", "SHHHHH", "JIIIIIIIIIK"],
+	"sound7": ["CRMMM", "FUMMMM", "ZXSSS", "FESSSS", "NISSSSSS"],
+	"sound8": ["ASSSSSS", "RESSS", "ZISSSS", "XISSSS", "EIIIISSSS"]
+
+
+}
